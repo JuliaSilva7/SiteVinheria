@@ -4,18 +4,16 @@
     --main-color: rgb(255, 200, 128);
     --black: #13131a;
     /*--bg: #0e0007;*/
-    --bg: rgb(46, 1, 18);
+    --bg: #3F0D0E;
     --border: .1rem solid rgba(255,255,255,.3);
 }
 
 *{
-    /*font-family: 'Roboto', sans-serif;*/
     margin: 0; padding: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: none;
-    /*text-transform: capitalize;*/
     transition: .2s linear;
 }
 
@@ -157,9 +155,9 @@ body{
 
 
 section {
-    font-family: Arial, sans-serif;
-    margin-top: 380px;
-    background-color: rgb(46, 1, 18);
+    font-family: 'Handlee', cursive;
+    margin-top: 200px;
+    background-color: #3F0D0E;
     color: #d1cfcf;
     
 
