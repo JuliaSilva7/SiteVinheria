@@ -3,7 +3,6 @@
 :root{
     --main-color: rgb(255, 200, 128);
     --black: #13131a;
-    /*--bg: #0e0007;*/
     --bg: #3F0D0E;
     --border: .1rem solid rgba(255,255,255,.3);
 }
@@ -74,9 +73,6 @@ body{
 .header .icons div:hover{
     color: var(--main-color);
     
-}
-#menu-btn{
-    display: none;
 }
 .header .search-form{
     position: absolute;

@@ -4,22 +4,18 @@
 :root{
     --main-color: rgb(255, 200, 128);
     --black: #13131a;
-    /*--bg: #0e0007;*/
     --bg: #3F0D0E;
     --border: .1rem solid rgba(255,255,255,.3);
 }
 
 *{
-    /*font-family: 'Roboto', sans-serif;*/
     margin: 0; padding: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: none;
-    /*text-transform: capitalize;*/
     transition: .2s linear;
 }
-
 
 html{
     font-size: 80.5%;
@@ -78,9 +74,7 @@ body{
     color: var(--main-color);
     
 }
-#menu-btn{
-    display: none;
-}
+
 .header .search-form{
     position: absolute;
     top: 115%; right: 7%;
@@ -163,13 +157,7 @@ body{
     background-size: cover;
     opacity: 40%;
 }
-.adega{
-    margin-top: 80px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: flex-end;
-    
-}
+
 .texto{
     float: left;
     margin-top: -600px;
@@ -179,14 +167,12 @@ body{
     width: 50%;
     line-height: 2.2;
     text-indent: 20px;
-    /*text-align: justify;*/
     word-spacing: 3px;
     opacity: 90%;
     font-size: 18px;
     font-family: 'Handlee', cursive;
 
 }
-
 
 footer {
     /*background-color: #333;*/
@@ -319,8 +305,3 @@ button:hover {
 	color: #24262b;
 	background-color: #ffffff;
 }
-
-
-
-
-

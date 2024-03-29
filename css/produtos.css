@@ -76,9 +76,6 @@ body{
     color: var(--main-color);
     
 }
-#menu-btn{
-    display: none;
-}
 .header .search-form{
     position: absolute;
     top: 115%; right: 7%;
@@ -152,26 +149,95 @@ body{
     background-color: rgb(26, 25, 27);
 }
 
+section{
+    min-height: 100vh;
+}
 
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    padding: 25px 25px;
+}
+.caixa h1{
+    border-radius: 45px;
+    background-color: #C27167;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 30px;
+}
 
-.adega{
-    margin-top: 80px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: flex-end;
+.catalogo p{
+    font-family: 'Handlee', cursive;
     
 }
-.texto{
-    float: left;
-    margin-top: 60px;
-    margin-left: 60px;
-    font-size: 10px;
-    color: white;
-    width: 50%;
-    line-height: 1.8;
-    text-indent: 20px;
-    word-spacing: 3px;
+.catalogo:hover{
+    transform: scale(1.1);
+}
 
+.nomeproduto{
+    font-size: 25px;
+    text-align: center;
+    color: #631111;
+    margin-top: 10px;
+}
+.descricaoproduto{
+    font-size: 18px;
+    text-align: center;
+    color: #9a4d4d;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#branco{
+    padding-top: 150px;
+    width: 100%;
+    text-align: center;
+
+}
+.cor-btn{
+    color: #f8f8fc;
+}
+
+.catalogo{
+    width: 250px;
+    height: 380px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.catalogo img{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.catalogo button{
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    background-color: #220404;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    color: #bbbbbb;
+    font-size: 20px;
+    transition: transform 0.1s ease;
+    cursor: pointer;
+
+}
+
+.catalogo:hover button{
+    background-color: #22040499;
+    color:#000000b5;
+    transform: scale(1.05);
 }
 
 
@@ -295,95 +361,3 @@ textarea {
 	color: #24262b;
 	background-color: #ffffff;
 }
-
-section{
-    min-height: 100vh;
-}
-
-h1{
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Handlee', cursive;
-    padding: 25px 25px;
-}
-.caixa h1{
-    border-radius: 45px;
-    background-color: #C27167;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 30px;
-}
-
-.catalogo p{
-    font-family: 'Handlee', cursive;
-    
-}
-.catalogo:hover{
-    transform: scale(1.1);
-}
-
-.nomeproduto{
-    font-size: 25px;
-    text-align: center;
-    color: #631111;
-    margin-top: 10px;
-}
-.descricaoproduto{
-    font-size: 18px;
-    text-align: center;
-    color: #9a4d4d;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#branco{
-    padding-top: 150px;
-    width: 100%;
-    text-align: center;
-
-}
-.cor-btn{
-    color: #f8f8fc;
-}
-
-.catalogo{
-    width: 250px;
-    height: 380px;
-    background-color: #ffffff;
-    border-radius: 5%;
-    display: inline-block;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 150px;
-    text-align: center;
-}
-
-.catalogo img{
-    width: 200px;
-    height: 150px;
-    margin-bottom: 50px;
-    margin-top: 30px;
-}
-
-.catalogo button{
-    display: block;
-    margin: auto;
-    padding: 5px 10px;
-    background-color: #220404;
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    color: #bbbbbb;
-    font-size: 20px;
-    transition: transform 0.1s ease;
-    cursor: pointer;
-
-}
-
-.catalogo:hover button{
-    background-color: #22040499;
-    color:#000000b5;
-    transform: scale(1.05);
-}
-
